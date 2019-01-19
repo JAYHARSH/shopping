@@ -1,0 +1,12 @@
+{
+    "development":{
+       "PORT":3000,
+       "MONGODB_URI":"mongodb://localhost:27017/stackdb",
+       "JWT_SECRET":"1234"
+
+    },
+    "production":{
+        "PORT":80,
+        "MONGODB_URI":"mongodb://xxxx/db_name"
+    }
+}
